@@ -16,6 +16,10 @@
     }
 ]
 
+
+
+
+
 2.To create a NoSQL database using MongoDB, by using terminal I am able to creating collection of restaurants data.
   {
     _id: ObjectId("64fad0ce2d19922efade0949"),
@@ -26,10 +30,17 @@
       { dish_name: 'Idli', price: 10 }
     ]
   }
+
+  
 3.Retrieving all search data with a single dish name.
 db.restaurants.find({
      "menu_items.dish_name": "Spaghetti Carbonara"
  });
+
+
+
+
+ 
  4.Display how many people searched for each dish/cuisine.
   db.search_logs.insertOne({
      "search_term": "Spaghetti Carbonara",
