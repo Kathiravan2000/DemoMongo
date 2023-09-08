@@ -1,0 +1,17 @@
+[
+    {
+        "restaurant_name": "Sample Restauraunt1",
+        "cuisine": "Indian",
+        "menu_items": [
+            {
+                "dish_name": "Dosa",
+                "price": 40
+            },
+            {
+                "dish_name": "Idli",
+                "price": 10
+            }
+        ]
+    }
+    
+]
